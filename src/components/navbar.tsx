@@ -48,7 +48,7 @@ export default function Navbar() {
         transition={{ duration: 0.3 }}
         className={`w-full h-fit py-4 flex items-center justify-between z-50 transition-all duration-300 ${
           isScrolled
-            ? 'px-4 md:px-8 md:mx-auto md:max-w-6xl md:left-1/2 md:transform md:-translate-x-1/2 md:rounded-2xl md:mt-6 bg-white/40 backdrop-blur-lg border border-blue-100/30 shadow-lg shadow-blue-100/20'
+            ? 'px-4 md:px-8 md:mx-auto md:max-w-6xl md:left-1/2 md:transform md:-translate-x-1/2 md:rounded-2xl md:mt-6 bg-white/50 backdrop-blur-xl border border-blue-200/60 shadow-2xl shadow-blue-300/40'
             : 'px-4 md:px-0'
         }`}
       >
