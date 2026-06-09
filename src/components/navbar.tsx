@@ -10,15 +10,13 @@ import { useState } from "react"
 
 const settings = {
   navLinks: [
-    { name: 'home', href: '/' },
-    { name: 'features', href: '#features' },
-    { name: 'pricing', href: '#pricing' },
-    { name: 'testimonials', href: '#testimonials' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'Pricing', href: '#pricing' },
+    { name: 'Services', href: '#services' },
+    { name: 'Explore', href: '#explore' },
   ],
   cta: {
-    content: 'try it for free',
-    href: '/'
+    content: 'Sign In',
+    href: '/signin'
   }
 }
 

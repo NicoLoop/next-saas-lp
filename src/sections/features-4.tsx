@@ -11,25 +11,25 @@ import Link from "next/link"
 const settings = {
   badge: {
     number: 4,
-    text: 'SMART TEAMWORK',
+    text: 'COMPLETE SOLUTIONS',
   },
-  title: 'Empower People With Data',
-  description: 'Reduce friction and enhance productivity by getting the right information to the right people with minimal effort, enabling them to thrive and excel.',
+  title: 'Hosting Beyond Minecraft',
+  description: 'While Minecraft is our specialty, we also offer hosting for VPS, Discord bots, web hosting, and more to power your entire gaming ecosystem.',
   card_1: {
-    title: 'Easily Manage Teams and Sites',
-    content: "Work happens in teams. That's why Pirsch enables collaboration right from the start: Simply invite team members or clients via email, assign them roles, and give them access to the dashboards they need to excel. All people, sites and custom themes in one place.",
+    title: 'Expand Your Services',
+    content: "Host multiple services on one platform. Run a Minecraft server, Discord bot, and website all from Creepy Host with unified management.",
     CTA: {
-      content: 'Start 30-day Free Trial',
+      content: 'Explore All Services',
       href: '#'
     },
     labels: [
-      'my-site.com',
-      'example.com',
-      'my-saas.ai',
-      'my-blog.com',
-      'potfolio.me',
-      'new-site.com',
-      'client-site.io',
+      'Minecraft Server',
+      'VPS Hosting',
+      'Dedicated Server',
+      'Discord Bot',
+      'Web Hosting',
+      'Game Server',
+      'Custom VPS',
     ],
     avatars: [
       'https://avatar.iran.liara.run/public/38',
@@ -42,12 +42,12 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Receive Automatic Email Reports',
-    content: 'Keep colleagues, customers, or partners in the loop with automatic email reports. Regularly receive a concise summary of the latest activities with just one click.',
+    title: 'Instant Scaling',
+    content: 'Need more power? Upgrade your server instantly without any downtime. Scale as your community grows.',
   },
   card_3: {
-    title: 'Share Dashboards With Anybody',
-    content: 'Working with external partners? Create unique access links to securely grant access to dashboards or make them public on your personal subdomain.',
+    title: 'API Access',
+    content: 'Full API access for automation and integration with your existing tools and workflows.',
   },
 }
 

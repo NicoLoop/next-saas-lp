@@ -9,18 +9,18 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 2,
-    text: 'INSTANT OUTPUT',
+    text: 'PROVEN PERFORMANCE',
   },
-  title: 'Unlock Key Insights',
-  description: 'With a powerful yet easy-to-use dashboard, you can access the most relevant data necessary to understand your customers and make the right decisions.',
+  title: 'Why Choose Creepy Host',
+  description: 'We&apos;ve optimized every aspect of our service to deliver the best Minecraft hosting experience possible. Here&apos;s what sets us apart.',
   card_1: {
-    title: 'Track Everything You Need',
-    content: 'With a wide range of data points, you get a detailed understanding of your visitors and target audience.',
+    title: 'Unmatched Performance',
+    content: 'Our state-of-the-art infrastructure ensures your server runs at peak performance. High TPS, zero lag, and optimized Java configurations.',
     image: 'https://framerusercontent.com/images/X87jAlbYbJ0hdTyTZ6QIMoQoOo.svg'
   },
   card_2: {
-    title: 'Filter With One Click',
-    content: 'Pirsch makes it effortless to explore your stats through intuitive filtering on a super-fast, highly visual dashboard.',
+    title: 'Legendary Support',
+    content: 'Our support team lives and breathes Minecraft. Get expert help within minutes. Available 24/7 to keep your server running smoothly.',
     image: 'https://framerusercontent.com/images/A718dQKmWnJEhhnu0SJfCGxzDM.svg'
   },
 }

@@ -8,23 +8,23 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 3,
-    text: 'ADVANCED ANALYTICS',
+    text: 'ADVANCED FEATURES',
   },
-  title: 'Dive Into the Details',
-  description: 'See beyond clicks with the power of events, A/B testing, and tag-based segmentation, drill down into single sessions, or track your performance with flexible conversion goals.',
+  title: 'Complete Hosting Toolkit',
+  description: 'Everything you need to manage your Minecraft server professionally, from control panels to advanced customization options.',
   card_1: {
-    title: 'Analyze Funnels',
-    content: 'Effectively visualize and fully understand user journeys in a matter of seconds.',
+    title: 'Instant Modpack Library',
+    content: 'Browse and install from our extensive modpack library with one click. Forge, Fabric, Spigot, and more.',
     image: 'https://framerusercontent.com/images/3FWbibttHBsnge8Td2JRVbNo.svg'
   },
   card_2: {
-    title: 'Explore Sessions',
-    content: 'Learn more about individual user journeys with in-depth session summaries.',
+    title: 'Global Network',
+    content: 'Choose from server locations worldwide. Your players enjoy low ping and fast connections no matter where they are.',
     image: 'https://framerusercontent.com/images/eaFbEnL3er77EwtTIiUEMgYTLnQ.svg'
   },
   card_3: {
-    title: 'Segment Visitors',
-    content: 'Leverage your data with tags for A/B testing or segmentation and channel attribution.',
+    title: 'Custom Configurations',
+    content: 'Full access to server settings, Java arguments, and advanced optimization options for power users.',
     image: 'https://framerusercontent.com/images/82g4S0XdXlaUWPtoLMLmaJhP1yc.svg'
   },
 }

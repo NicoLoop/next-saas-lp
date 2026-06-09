@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const settings = {
-  title: 'Start using our app today.',
-  description: 'Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.',
+  title: 'Ready to Launch Your Minecraft Server?',
+  description: 'Join thousands of server owners enjoying lightning-fast performance, DDoS protection, and expert support. Start your 7-day free trial today—no credit card required.',
   CTA: {
-    content: 'Start your free trial',
-    href: '#'
+    content: 'Start Free Trial',
+    href: '#pricing'
   }
 }
 
