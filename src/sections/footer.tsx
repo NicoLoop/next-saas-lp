@@ -5,12 +5,12 @@ import Link from "next/link"
 
 const settings = {
   links: [
-    { title: 'About', href: '/' },
-    { title: 'Blog', href: '/' },
-    { title: 'Jobs', href: '/' },
-    { title: 'Press', href: '/' },
-    { title: 'Affiliate', href: '/' },
-    { title: 'Contact Us', href: '/' },
+    { title: 'Home', href: '/' },
+    { title: 'Pricing', href: '#pricing' },
+    { title: 'Features', href: '#features' },
+    { title: 'Support', href: '/' },
+    { title: 'Status', href: '/' },
+    { title: 'Contact', href: '/' },
   ],
   socialMedia: [
     { title: 'Facebook', icon: Facebook, href: '/' },
@@ -18,7 +18,7 @@ const settings = {
     { title: 'Github', icon: Github, href: '/' },
     { title: 'Youtube', icon: Youtube, href: '/' },
   ],
-  copyright: '© 2024 Your Company, Inc. All rights reserved.'
+  copyright: '© 2024 Creepy Host. All rights reserved. Premium Minecraft Server Hosting.'
 }
 
 export default function Footer() {

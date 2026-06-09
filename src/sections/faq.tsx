@@ -12,20 +12,28 @@ const settings = {
   title: 'Frequently asked questions',
   faqs: [
     {
-      question: 'Why is the sky blue?',
-      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam neque reprehenderit saepe eius dolorum vel consequuntur perspiciatis ad vero.',
+      question: 'How long does it take to set up my server?',
+      answer: 'Your server is ready to play in less than 60 seconds! We provision servers instantly. Just choose your plan, click deploy, and invite your friends.',
     },
     {
-      question: 'Why did the chicken cross the road?',
-      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam neque reprehenderit saepe eius dolorum vel consequuntur perspiciatis ad vero.',
+      question: 'Do you offer a free trial?',
+      answer: 'Yes! All new customers get a 7-day free trial with full access to our Professional plan. No credit card required. Experience our service risk-free.',
     },
     {
-      question: 'How many licks does it take to get to the center of a tootsie pop?',
-      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam neque reprehenderit saepe eius dolorum vel consequuntur perspiciatis ad vero.',
+      question: 'What modpacks do you support?',
+      answer: 'We support Forge, Fabric, Spigot, Paper, and over 500 curated modpacks. If your favorite isn&apos;t in our library, you can upload custom modpacks directly to your server.',
     },
     {
-      question: "Where's Waldo?",
-      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam neque reprehenderit saepe eius dolorum vel consequuntur perspiciatis ad vero.',
+      question: 'Is DDoS protection included?',
+      answer: 'Yes! All Creepy Host plans include enterprise-grade DDoS protection. Your server is protected from attacks 24/7 with zero performance impact.',
+    },
+    {
+      question: 'How often are backups created?',
+      answer: 'Starter and Professional plans get daily backups. Enterprise plans include hourly backups. You can restore any backup with one click, and your data is always safe.',
+    },
+    {
+      question: 'Can I upgrade or downgrade my plan?',
+      answer: 'Absolutely! Change your plan anytime. Upgrades take effect immediately, and downgrades are prorated on your next billing cycle.',
     },
   ]
 }

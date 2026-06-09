@@ -6,38 +6,59 @@ import { Button } from "./ui/button"
 import { AlignJustify, X } from "lucide-react"
 import { AnimatePresence } from 'motion/react'
 import * as motion from "motion/react-m"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const settings = {
   navLinks: [
-    { name: 'home', href: '/' },
-    { name: 'features', href: '#features' },
-    { name: 'pricing', href: '#pricing' },
-    { name: 'testimonials', href: '#testimonials' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'Pricing', href: '#pricing' },
+    { name: 'Services', href: '#services' },
+    { name: 'Explore', href: '#explore' },
   ],
   cta: {
-    content: 'try it for free',
-    href: '/'
+    content: 'Sign In',
+    href: '/signin'
   }
 }
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
+  const [isScrolled, setIsScrolled] = useState<boolean>(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
 
   return (
-    <nav className="w-full h-fit py-4 flex items-center justify-between">
-      {/* Logo */}
-      <Link href='/' title="Home" id="Logo">
-        <Logo />
-      </Link>
+    <>
+      <motion.nav
+        initial={{ y: 0 }}
+        animate={{ 
+          y: 0,
+          position: isScrolled ? 'fixed' : 'relative',
+        }}
+        transition={{ duration: 0.3 }}
+        className={`w-full h-fit py-4 flex items-center justify-between z-50 transition-all duration-300 ${
+          isScrolled
+            ? 'px-4 md:px-8 md:mx-auto md:max-w-6xl md:left-1/2 md:transform md:-translate-x-1/2 md:rounded-2xl md:mt-6 bg-white/50 backdrop-blur-xl border-2 border-solid border-blue-300/80 shadow-2xl shadow-blue-400/50'
+            : 'px-4 md:px-0'
+        }`}
+      >
+        {/* Logo */}
+        <Link href='/' title="Home" id="Logo">
+          <Logo />
+        </Link>
 
-      {/* desktop menu */}
-      <div className="items-center justify-center gap-5 hidden md:flex">
+        {/* desktop menu */}
+        <div className="items-center justify-center gap-5 hidden md:flex">
 
         {/* Nav Links */}
         <ul className="flex items-center justify-center gap-5 text-black font-medium select-none text-link">
@@ -92,6 +113,8 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-    </nav>
+      </motion.nav>
+      {isScrolled && <div className="h-20 md:h-24" />}
+    </>
   )
 }

@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 
 
 export const metadata: Metadata = {
-  title: "Next SaaS",
-  description: "Change this"
+  title: "Creepy Host - Premium Minecraft Server Hosting",
+  description: "High-performance Minecraft server hosting with instant setup, DDoS protection, and 24/7 support. Trusted by thousands of players worldwide."
 };
 
 export default function RootLayout({

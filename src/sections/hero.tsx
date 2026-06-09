@@ -11,17 +11,17 @@ import Link from "next/link";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
-  headline: 'Hello YouTube',
-  subheadline: 'Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.',
+  headline: 'Premium Minecraft Server Hosting',
+  subheadline: 'Launch your Minecraft server instantly with lightning-fast performance, DDoS protection, and 24/7 support. Perfect for gamers and communities.',
   mainCTA: {
-    content: 'try it for free',
-    href: '#'
+    content: 'Start Hosting',
+    href: '#pricing'
   },
   secondaryCTA: {
-    content: 'view live demo',
-    href: '#'
+    content: 'View Features',
+    href: '#features'
   },
-  illustration: '/illustration.svg',
+  illustration: '/minecraft-dashboard.png',
   reviews: [
     {
       name: "John Doe",
@@ -117,7 +117,7 @@ export default function Hero() {
                 <Star size={16} fill='oklch(0.795 0.184 86.047)' className="text-yellow-500" />
               </div>
 
-              <span className="text-xs">Trusted by 500+ Customers</span>
+              <span className="text-xs">Trusted by 10,000+ Minecraft Communities</span>
             </div>
           </div>
         </SlideEffect>

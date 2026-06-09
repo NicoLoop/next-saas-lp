@@ -9,13 +9,13 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 1,
-    text: 'get started in seconds',
+    text: 'instantly launch your server',
   },
-  title: 'Set Up in Minutes',
-  description: 'Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the plug-and-play Google Analytics alternative.',
+  title: 'Minecraft Hosting Features',
+  description: 'Industry-leading performance and reliability for your Minecraft server. From instant setup to enterprise-grade protection, we\'ve got everything you need.',
   card_1: {
-    title: 'Effortless Setup',
-    content: 'Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time.',
+    title: 'Lightning-Fast Performance',
+    content: 'NVMe SSD storage and optimized server infrastructure ensure your Minecraft server runs at peak performance with 99.9% uptime guarantee.',
     carousel_images: [
       'https://cdn.worldvectorlogo.com/logos/react-2.svg',
       'https://cdn.worldvectorlogo.com/logos/vue-9.svg',
@@ -28,16 +28,16 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Seamless Switch',
-    content: 'Migrating from other web analytics solutions? Import your data from Plausible, Fathom, or Google Analytics in just a few clicks and easily continue where you left off.'
+    title: 'DDoS Protection',
+    content: 'Advanced DDoS mitigation keeps your server safe from attacks. Our intelligent filtering system protects your players and maintains stability 24/7.'
   },
   card_3: {
-    title: 'No Cookie Banner',
-    content: 'Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors personal identifiable information.'
+    title: 'One-Click Modpacks',
+    content: 'Install modpacks with a single click. We support Forge, Fabric, Spigot, and more. Get your custom server running in seconds without technical knowledge.'
   },
   card_4: {
-    title: 'Privacy-Friendly by Design',
-    content: 'Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany.',
+    title: 'Always Backed Up',
+    content: 'Automatic daily backups protect your world data. Restore to any previous backup instantly with one click. Your progress is always safe with us.',
     image: 'https://framerusercontent.com/images/6jTglLZFhLYMIuOe7EC0QFeykU.png?scale-down-to=512',
   },
 }
