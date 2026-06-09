@@ -21,7 +21,7 @@ const settings = {
     content: 'view live demo',
     href: '#'
   },
-  illustration: '/illustration.svg',
+  illustration: '/minecraft-dashboard.png',
   reviews: [
     {
       name: "John Doe",
